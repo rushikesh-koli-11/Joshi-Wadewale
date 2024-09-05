@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+form input[type="number"] {
+    width: 60px;
+}
+
+.red{
+   
+    color: red !important;
+    
+}
+
+.card-img {
+    opacity: 0.6; /* Adjust the opacity as needed */
+}
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.4); /* Adds a semi-transparent background for better text readability */
+}
+
+.shadow{
+    box-shadow: 10px 10px 10px #888888 !important;
+}
+
+.Bradius{
+    border-radius: 12px !important;
+}
+
+
+
+
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 !important;
+}
+
+footer {
+    position: relative !important;
+    bottom: 0 !important;
+    width: 100%;
+}
+
+
+
+
+/* ////////// */
+
+
+
+
+
+
+
+.content {
+    flex: 1; /* This allows the content to expand and push the footer down */
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardb{
+    border-radius: 0.5rem !important;
+    
+}
+
+
+
+.circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f44336; /* Red background */
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+  }

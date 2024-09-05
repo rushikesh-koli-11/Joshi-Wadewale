@@ -1,0 +1,17 @@
+{
+    "name": "snacks-center-counter",
+    "version": "1.0.0",
+    "description": "A counter system for a snacks center using Node.js, Express, MongoDB, and Bootstrap",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Rushikesh Koli",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.8",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.14",
+        "pdfkit": "^0.12.3"
+    }
+}
